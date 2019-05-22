@@ -1,5 +1,5 @@
 <div class="container">
-  <app-cookpit></app-cookpit>
+  <app-cookpit (serverCreated)="onServerAdded($event)" (bluePrintCreated)="onBlueprintAdded($event)"></app-cookpit>
   <hr>
   <div class="row">
     <div class="col-xs-12">
